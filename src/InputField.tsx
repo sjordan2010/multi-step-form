@@ -1,6 +1,5 @@
 import { TextField } from '@mui/material';
 import { FieldConfig, useField } from 'formik';
-import React from 'react';
 
 interface Props extends FieldConfig {
     label: string,
