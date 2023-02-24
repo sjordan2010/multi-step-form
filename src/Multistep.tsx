@@ -24,7 +24,7 @@ function Multistep({ children, initialValues, onSubmit }: Props) {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('submitted')
+        console.log('submitted for real')
     }
 
     return (
